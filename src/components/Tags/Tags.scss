@@ -1,0 +1,25 @@
+@import '../../style.scss';
+
+.tags {
+	cursor: pointer;
+	
+	a {
+    text-decoration: none;
+	}
+}
+.tag {
+	background: $tagBg;
+	border-radius: .5rem;
+	color: $text-color;
+	padding: .5rem ;
+	@include transition(0.5s);
+	margin-right: 8px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.tag:hover, .tag:focus {
+	background: $yellow;
+	color: #fff;
+	text-decoration: none;
+}

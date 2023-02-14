@@ -1,0 +1,18 @@
+@import '../../style.scss';
+
+.footer{
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: $white;
+
+    .brand-name{
+        color: $main-color;
+    }
+
+    .copyright{
+        color: $text-color;
+    }
+
+}

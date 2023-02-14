@@ -1,0 +1,25 @@
+@import '../../style.scss';
+
+.scroll-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+	@include transition(.5s);
+	cursor: pointer;
+	z-index: 1;
+	span {
+		width: 50px;
+		height: 50px;
+		display: table;
+		background: $main-color;
+		color: white;
+		text-align: center;
+		@include border-radius(4px);
+	}
+	i {
+		height: 20px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+  }

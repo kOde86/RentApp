@@ -1,0 +1,27 @@
+@import '../../style.scss';
+
+
+.mb-4{
+  margin-top: .5rem;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .profile{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+    img{
+        width: 100%;
+    }
+    }
+}
+
+.h-100{
+   
+}

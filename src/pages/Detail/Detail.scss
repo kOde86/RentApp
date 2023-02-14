@@ -1,0 +1,93 @@
+@import '../../style.scss';
+
+
+
+
+.blog-single-content {
+    z-index: 999;
+
+
+	p, ul li {
+		font-size: 1.05rem;
+	}
+}
+
+
+.blog-title-box {
+    width: 38.2%;
+	z-index: 555;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 1rem;
+
+    .single & {
+		position: relative;
+		height: 600px;
+		width: 100%;
+		
+	}
+		
+}
+
+
+
+	
+	
+
+
+
+
+
+
+.hd-text{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	text-transform: capitalize;
+	
+	h4{
+		color: $text-color;
+		font-weight: 600;
+	}
+	p{
+		font-size: 1.3rem;
+	}
+}
+
+.detail-left{
+	margin-top: .25rem;
+}
+.for-like{
+	margin-top: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: .75rem;
+
+	.price{
+		font-size: 1.6rem;
+		background: teal;
+		color: $white;
+		padding: .25rem .5rem;
+	
+	}
+
+	.pd-head{
+		font-size: 1.6rem;
+		background: #111;
+		padding: .25rem .5rem;
+		color: $white;
+	}
+}
+.gap{
+	gap: 3rem;
+}
+.header{
+	color: $main-color;
+	padding-bottom: 1rem;
+}
+
+//comment box 
+

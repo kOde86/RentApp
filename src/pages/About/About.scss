@@ -1,0 +1,114 @@
+@import '../../style.scss';
+
+.about{
+    .mx-0{
+        margin: 2rem 0 5rem 0;
+
+        .text-left{
+            display: flex;
+            flex-direction: column;
+            align-items: center!important;
+            justify-content: center!important;
+            padding-right: 2rem;
+
+            .about-headline{
+                font-size: 3.5rem;
+                font-weight: 800;
+                color: $text-color;
+                line-height: 1.1;
+                margin-bottom: .5rem;
+                text-transform: initial;
+
+                span{
+                    color: $main-color;
+                }
+            }
+            p{
+                font-size: 1.05rem;
+            }
+        }
+
+        .image-right{
+            position: relative!important;
+            display: flex!important;
+            justify-content: center;
+            padding: 1rem;
+
+            .circle{
+                position: absolute;
+                width: 450px;
+                height: 280px;
+                border: 4px solid $main-color;
+                left: 48%;
+                transform: translateX(-50%);
+                bottom: .5rem;
+               
+                
+            }
+
+            .img-container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                height: 500px;
+                width: 450px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+
+            }
+
+        }
+    }
+
+    .down-content{
+        border-top: 1px solid #eee;
+        
+        .content-wrapper{
+             padding: 2rem 0;  
+           .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+
+            .icon{
+                width: 7rem;
+                height: 7rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img{
+                    width: 100%;
+                    }
+                }
+                h3{
+                    color: $main-color;
+                    font-size: 1.5rem;
+                    padding: .5rem 0;
+                }
+            } 
+        }
+    }
+
+    .cta{
+        background: $main-color;
+        color: $white;
+        transition: .5s;
+        padding: .85rem;
+        font-size: 1.2rem;
+      
+
+        &:hover{
+            opacity: .5;
+        }
+    }
+    .bottom-cta{
+        margin: 2rem 0;
+    }
+}
